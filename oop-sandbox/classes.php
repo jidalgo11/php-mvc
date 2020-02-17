@@ -1,4 +1,5 @@
 <?php 
+include('header.php');
 // Define a class
 class User {
   // Properties (attributes)
@@ -22,7 +23,7 @@ echo '<br>';
 
 // Create new user
 $user2 = new User();
-$user2->name = 'Brenna';
+$user2->name = 'Nicole';
 echo $user2->name;
 echo '<br>';
 echo $user2->sayHello();
